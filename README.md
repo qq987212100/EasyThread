@@ -2,8 +2,6 @@
 
 [![](https://jitpack.io/v/qq987212100/EasyThread.svg)](https://jitpack.io/#qq987212100/EasyThread)
 
-暂时还不能用，等我研究研究，为何引用下来会报错的问题，非老司机，多多包涵，直接把类拉过去是可以用的！
-
 以创建线程为例：
 
 
@@ -81,7 +79,7 @@
 	然后再加上这个
 	
 	dependencies {
-	        implementation 'com.github.qq987212100:EasyThread:1.0'
+	        implementation 'com.github.qq987212100:EasyThread:1.0.1'
 	}
 	
 	
