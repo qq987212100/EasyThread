@@ -1,5 +1,7 @@
 # EasyThread
 
+[![](https://jitpack.io/v/qq987212100/EasyThread.svg)](https://jitpack.io/#qq987212100/EasyThread)
+
 以创建线程为例：
 
 
@@ -84,4 +86,3 @@
 
 主要的目的就是方便监听线程和线程池是否执行完毕，还需要什么优化和什么功能正在思考，写着玩玩的，各位大哥大姐请高抬贵手！
 
-[![](https://jitpack.io/v/qq987212100/EasyThread.svg)](https://jitpack.io/#qq987212100/EasyThread)
