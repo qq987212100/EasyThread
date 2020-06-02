@@ -1,8 +1,6 @@
 package com.ioohi.easythread.thread;
 
 
-import androidx.annotation.NonNull;
-
 import com.ioohi.easythread.listener.OnThreadPoolStateChangeListener;
 import com.ioohi.easythread.listener.OnThreadStateChangeListener;
 
@@ -74,7 +72,6 @@ public class BaseThreadPoolExecutor extends ThreadPoolExecutor {
     }
 
     @Override
-    @NonNull
     public Future<?> submit(Runnable task) {
         if (task instanceof BaseThread) {
             ((BaseThread) task).setOnThreadStateChangeListener(new OnThreadStateChangeListener() {
@@ -110,7 +107,6 @@ public class BaseThreadPoolExecutor extends ThreadPoolExecutor {
     }
 
     @Override
-    @NonNull
     public <T> Future<T> submit(Runnable task, T result) {
         if (task instanceof BaseThread) {
             ((BaseThread) task).setOnThreadStateChangeListener(new OnThreadStateChangeListener() {
