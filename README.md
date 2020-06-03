@@ -79,7 +79,7 @@
 	然后再加上这个
 	
 	dependencies {
-	        implementation 'com.github.qq987212100:EasyThread:1.0.1'
+	        implementation 'com.github.qq987212100:ThreadReady:1.0.1'
 	}
 	
 	
