@@ -1,4 +1,4 @@
-# EasyThread
+# ThreadReady
 
 [![](https://jitpack.io/v/qq987212100/EasyThread.svg)](https://jitpack.io/#qq987212100/EasyThread)
 
