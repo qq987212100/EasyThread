@@ -1,13 +1,11 @@
-# EasyThread
+# ThreadReady
 
 [![](https://jitpack.io/v/qq987212100/EasyThread.svg)](https://jitpack.io/#qq987212100/EasyThread)
 
-暂时还不能用，等我研究研究，为何引用下来会报错的问题，非老司机，多多包涵，直接把类拉过去是可以用的！
+	以创建线程为例：
 
-以创建线程为例：
-
-
-	支持设置ID、设置Runnable、设置监听（监听自身待执行内容是否执行完毕,未放入线程池或放入常规线程池时支持，监听线程池会覆盖掉线程自身监听）
+	支持设置ID、设置Runnable、设置监听
+	（监听自身待执行内容是否执行完毕,未放入线程池或放入常规线程池时支持，监听线程池会覆盖掉线程自身监听）
 
 	BaseThread baseThread = new BaseThread();
 	baseThread.setid(i);
@@ -81,10 +79,10 @@
 	然后再加上这个
 	
 	dependencies {
-	        implementation 'com.github.qq987212100:EasyThread:1.0'
+	        implementation 'com.github.qq987212100:ThreadReady:1.0.1'
 	}
 	
 	
 
-主要的目的就是方便监听线程和线程池是否执行完毕，还需要什么优化和什么功能正在思考，写着玩玩的，各位大哥大姐请高抬贵手！
+	主要的目的就是方便监听线程和线程池是否执行完毕，还需要什么优化和什么功能正在思考，写着玩玩的，各位大哥大姐请高抬贵手！
 
