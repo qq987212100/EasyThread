@@ -1,8 +1,6 @@
-package com.ioohi.easythread.listener;
+package com.ioohi.threadready.listener;
 
-import java.util.concurrent.ExecutorService;
-
-public interface OnThreadPoolStateChangeListener {
+public interface OnThreadStateChangeListener {
 
     /**
      * 当线程开始执行
@@ -22,11 +20,5 @@ public interface OnThreadPoolStateChangeListener {
      * @param e 所出现异常
      */
     void onThreadError(int id, Exception e);
-
-    /**
-     * 线程池执行完毕回调
-     * @param executorService 执行完毕的线程池
-     */
-    void onThreadPoolEnd(ExecutorService executorService);
 
 }

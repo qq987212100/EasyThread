@@ -1,8 +1,8 @@
-package com.ioohi.easythread.thread;
+package com.ioohi.threadready.thread;
 
 
-import com.ioohi.easythread.listener.OnThreadPoolStateChangeListener;
-import com.ioohi.easythread.listener.OnThreadStateChangeListener;
+import com.ioohi.threadready.listener.OnThreadPoolStateChangeListener;
+import com.ioohi.threadready.listener.OnThreadStateChangeListener;
 
 import java.util.concurrent.Future;
 import java.util.concurrent.RejectedExecutionHandler;

@@ -1,4 +1,4 @@
-package com.ioohi.easythread.thread;
+package com.ioohi.threadready.thread;
 
 
 public class ThreadUtils {

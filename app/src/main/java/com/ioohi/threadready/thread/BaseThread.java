@@ -1,7 +1,7 @@
-package com.ioohi.easythread.thread;
+package com.ioohi.threadready.thread;
 
 
-import com.ioohi.easythread.listener.OnThreadStateChangeListener;
+import com.ioohi.threadready.listener.OnThreadStateChangeListener;
 
 public class BaseThread extends Thread {
 
@@ -14,7 +14,7 @@ public class BaseThread extends Thread {
         this.changeListener = changeListener;
     }
 
-    public OnThreadStateChangeListener getOnThreadStateChangeListener(){
+    public OnThreadStateChangeListener getOnThreadStateChangeListener() {
         return changeListener;
     }
 
